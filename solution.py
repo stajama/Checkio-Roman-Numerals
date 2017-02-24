@@ -1,4 +1,8 @@
-def checkio(number):
+def checkio():
+  try:
+    number = int(input("number to convert?: "))
+  except:
+    return None
   M,x = divmod(number,1000)
   D,x = divmod(x,500)
   C,x = divmod(x,100)
@@ -22,4 +26,4 @@ def checkio(number):
   return returnstring
   
 if __name__ == "__main__":
-  checkio(int(input()))
+  print(checkio())
