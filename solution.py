@@ -1,3 +1,5 @@
+#! /bin/python3
+
 def checkio():
   try:
     number = int(input("number to convert?: "))
