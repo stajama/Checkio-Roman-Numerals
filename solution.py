@@ -22,4 +22,4 @@ def checkio(number):
   return returnstring
   
 if __name__ == "__main__":
-  hangman(int(input()))
+  checkio(int(input()))
